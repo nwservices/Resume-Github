@@ -49,13 +49,13 @@ Head &nbsp; 0 -> 0 -> 0 -> 0 &nbsp;Master
 
 Git init
 
-* Git flow init
+* git flow init
 
 Git branch <br>
   -> develop * <br>
   -> master
 
-* Git flow feature start MYFEATURE
+* git flow feature start MYFEATURE
 
 Git branch <br>
   -> develop <br>
@@ -69,34 +69,35 @@ touch index.html
 git add index.html
 git commit -m 'creation fichier index.html'
 
-* Git flow feature finish MYFEATURE &nbsp; ( merge with develop )
+* git flow feature finish MYFEATURE &nbsp; ( merge with develop )
 
-can add how many features u want<br>
+Can add how many features u want<br>
 when one is fully checked : 
 
-* Git flow release start index
+* git flow release start index
 
-ici sert surtout tagger la version :
+Ici sert surtout tagger la version :
 
 * Git tag 1.0
 
 git tag <br>
 -> 1.0 <br>
 
-now can be publish online :
+Now can be publish online :
 
-* Git flow release finish MYFEATURE 
-* Git push --tags
+* git flow release finish MYFEATURE 
+* git push --tags
 
-ensuite si malgrès tout un beug online :
+Ensuite si malgrès tout un beug online :
 
-* Git flow hotfix start VERSION master
-* Git flow hotflix finish VERSION
+* git flow hotfix start VERSION master
+* git flow hotflix finish VERSION
 
-qui corrigera aussi dans develop
+Qui corrigera aussi dans develop
 
 # Git-Hub
 
-* $ git remote add origin https://repository_link
-* $ git push origin master
+* git remote add origin https://repository_link
+* git push origin master
+* git pull origin master
 
