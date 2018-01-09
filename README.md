@@ -97,6 +97,6 @@ qui corrigera aussi dans develop
 
 # Git-Hub
 
-* $ git remote add origin https://github.com/nwservices/steven-sil-tuto.git
+* $ git remote add origin https://repository_link
 * $ git push origin master
 
